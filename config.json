@@ -8,8 +8,9 @@
     "settings": {
       "clients": [
         {
-          "id": "your_uuid",
-          "alterId": 64
+          "id": "69c11b41-8810-46ae-89d2-e3f668bd8440 ",
+          "alterId": 64,
+          "security": "aes-256-cfb"
         }
       ]
     },
@@ -17,8 +18,9 @@
       "network": "ws"
     }
   },
+  "inboundDetour": [],
   "outbound": {
     "protocol": "freedom",
-    "settings": {}
+   "settings": {}
   }
 }
